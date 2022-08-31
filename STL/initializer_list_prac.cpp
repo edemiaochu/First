@@ -17,5 +17,6 @@ void inilist()
 {
     std::initializer_list<int> il1{1,2,3,4,5,6};
     inilistshow(il1);
+    std::cout<<il1.size()<<std::endl;
 
 }
