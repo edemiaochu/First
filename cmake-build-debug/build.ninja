@@ -79,6 +79,12 @@ build CMakeFiles/01.dir/STL/set_prac.cpp.obj: CXX_COMPILER__01_Debug F$:/program
   OBJECT_DIR = CMakeFiles\01.dir
   OBJECT_FILE_DIR = CMakeFiles\01.dir\STL
 
+build CMakeFiles/01.dir/STL/initializer_list_prac.cpp.obj: CXX_COMPILER__01_Debug F$:/program_file/C++/Clion_prac/01/STL/initializer_list_prac.cpp || cmake_object_order_depends_target_01
+  DEP_FILE = CMakeFiles\01.dir\STL\initializer_list_prac.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\01.dir
+  OBJECT_FILE_DIR = CMakeFiles\01.dir\STL
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01
@@ -87,7 +93,7 @@ build CMakeFiles/01.dir/STL/set_prac.cpp.obj: CXX_COMPILER__01_Debug F$:/program
 #############################################
 # Link the executable 01.exe
 
-build 01.exe: CXX_EXECUTABLE_LINKER__01_Debug CMakeFiles/01.dir/main.cpp.obj CMakeFiles/01.dir/person.cpp.obj CMakeFiles/01.dir/man.cpp.obj CMakeFiles/01.dir/conexptr/conexptr.cpp.obj CMakeFiles/01.dir/STL/set_prac.cpp.obj
+build 01.exe: CXX_EXECUTABLE_LINKER__01_Debug CMakeFiles/01.dir/main.cpp.obj CMakeFiles/01.dir/person.cpp.obj CMakeFiles/01.dir/man.cpp.obj CMakeFiles/01.dir/conexptr/conexptr.cpp.obj CMakeFiles/01.dir/STL/set_prac.cpp.obj CMakeFiles/01.dir/STL/initializer_list_prac.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01.dir

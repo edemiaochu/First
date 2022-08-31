@@ -5,6 +5,7 @@
 #include "map_prac.hpp"
 #include"conexptr/conexptr.h"
 #include"STL/set_prac.h"
+#include "STL/initializer_list.h"
 void function1(const people &pl){
     std::cout<<pl.name<<std::endl;
     std::cout<<pl.phone<<std::endl;
@@ -38,6 +39,7 @@ int main() {
     constexpr test g1={100};
     set_prac stp1;
     stp1.test();
+    inilist();
 
     return 0;
 }

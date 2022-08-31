@@ -16,6 +16,7 @@
 #include<set>
 #include<unordered_set>
 #include<unordered_map>
+
 namespace {
     template<class T>
     std::ostream &operator<<(std::ostream &os, std::vector<T> const &v) {
